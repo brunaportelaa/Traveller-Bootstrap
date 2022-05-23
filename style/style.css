@@ -1,0 +1,87 @@
+.footer{
+    background-color:#f8f8f8;
+}
+
+body{font-family: 'Space Grotesk', sans-serif;}
+
+.img-fluid{
+    max-width: 150px;
+}
+
+.img-small{
+    max-width: 40px;
+}
+
+.locaisproximos{
+    height: 100vh;
+
+    }
+
+.locais-title{    width:fit-content
+}
+
+.divisor{
+    height: 0.5rem;
+    width:50%;
+}
+
+.pinkClr{
+    background-color:#FF007A;
+}
+
+.blueClr{
+    background-color:#20A1F1;
+}
+
+.purpleClr{
+    background-color: #A100FF;
+    color:white;
+    font-weight: 800;
+}
+
+.yellowClr{
+   
+    color:#FFD600;
+}
+
+.col{display: inline-block;}
+
+#rateMe{
+    text-align: center;
+    margin-bottom:1rem;
+}
+.rounded{
+    border-radius:1rem!important
+}
+
+.locals-card{
+	width:250px;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+
+}
+
+
+.card-title{
+    text-align: center;
+}
+.card-img-top{
+    height:auto;
+}
+
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .line-bottom {
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+  }
