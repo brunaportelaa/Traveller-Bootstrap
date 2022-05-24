@@ -2,7 +2,46 @@
     background-color:#f8f8f8;
 }
 
-body{font-family: 'Space Grotesk', sans-serif;}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.navbar-logo {
+    max-width: 250px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-nav {
+    font-weight: 700;
+}
+
+.underline-pink {
+    border-bottom: 3px solid #FF007A;
+}
+
+.underline-blue {
+    border-bottom: 3px solid #20A1F1;
+}
+
+.underline-purple {
+    border-bottom: 3px solid #A100FF;
+}
+
+.underline-orange {
+    border-bottom: 3px solid #FF5900;
+}
+
+.underline-green {
+    border-bottom: 3px solid #00FF9D;
+}
+
+.login {
+    font-weight: 700;
+}
 
 .img-fluid{
     max-width: 150px;
@@ -17,7 +56,8 @@ body{font-family: 'Space Grotesk', sans-serif;}
 
     }
 
-.locais-title{    width:fit-content
+.locais-title{
+    width:fit-content
 }
 
 .divisor{
