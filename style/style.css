@@ -44,6 +44,10 @@ body{
     border-bottom: 3px solid #00FF9D;
 }
 
+.breadcrumb {
+    background-color: white;
+}
+
 .line-small {
     width: 128px;
 }
