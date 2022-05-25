@@ -56,6 +56,10 @@ body{
     max-width: 150px;
 }
 
+
+.locais-title{
+    width:fit-content
+}
 .img-small{
     max-width: 40px;
 }
@@ -64,10 +68,6 @@ body{
     width:35px;
 }
 
-.locaisproximos{
-    height: 100vh;
-
-    }
 
 .locais-title{
     width:fit-content
@@ -115,8 +115,10 @@ body{
 	background-size: cover;
 	transition: all 0.2s ease-in-out !important;
 	border-radius: 24px;
-
+    margin-left: 1.5rem;
+    flex-shrink: 0;
 }
+
 
 
 .card-title{
@@ -131,6 +133,18 @@ body{
 	overflow-x: auto;
 }
 
+
+
+.places{
+    background-color:#f8f8f8;
+    
+}
+
+
+
+.ratings{
+    height:70vh
+}
 @media only screen and (max-width: 980px) {
     .line-bottom {
       justify-content: center;
