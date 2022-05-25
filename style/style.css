@@ -91,9 +91,16 @@ body{
     background-color:#20A1F1;
 }
 
+
 .purpleClr{
     background-color: #A100FF;
     color:white;
+    font-weight: 800;
+}
+
+.greenClr {
+    background-color: #00FF9D;
+    color: #003C25;
     font-weight: 800;
 }
 
