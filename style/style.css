@@ -69,6 +69,19 @@ body{
     max-width: 40px;
 }
 
+
+.mapDiv{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.card{
+    flex-shrink: 0;
+    max-width: 300px;
+    margin-right: 3rem;
+}
 .icon {
     width:35px;
 }
