@@ -44,6 +44,10 @@ body{
     border-bottom: 3px solid #00FF9D;
 }
 
+.line-small {
+    width: 128px;
+}
+
 .login {
     font-weight: 700;
 }
@@ -54,6 +58,10 @@ body{
 
 .img-small{
     max-width: 40px;
+}
+
+.icon {
+    width:35px;
 }
 
 .locaisproximos{
