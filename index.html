@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="/style/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
@@ -114,7 +114,7 @@
     <!-- Lugar -->
     <div class="container">
       <h3 class="font-weight-bold">Theatro Municipal de São Paulo</h3>
-      <div class="underline-orange line-small"></div> <!-- Não consegui fazer o traço laranja-->
+      <div class="underline-orange line-small"></div> 
       <div class="container d-inline-flex p-3">
         <span style="color:goldenrod;"><i class="fas fa-star"></i></span>
         <p>4,8(10)</p>
@@ -163,30 +163,30 @@
   </div>
 
   <div class="Rayane">
-    <div class="container col-lg-6">
+    <div class="container col-lg-6 mapa">
       <h3 class="font-weight-bold">Localização</h3>
-      <div class="underline-green"></div> <!-- Não consegui fazer o traço laranja-->
-      <iframe class="shadow-sm rounded-lg"
+      <div class="underline-green line-small"></div> 
+      <iframe class="shadow-sm rounded-lg mapDiv"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.634553149294!2d-46.63880275635602!3d-23.545642961651083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56113b8aa18b%3A0x275b79f7efe44e1e!2sTheatro%20Municipal%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1653433483685!5m2!1spt-BR!2sbr"
         width="744" height="488" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
-    <div class="container col-lg-6 ">
+    <div class="container col-lg-6 mt-2 ">
       <h3 class="font-weight-bold">Como chegar</h3>
-      <div class="underline-green"></div> <!-- Não consegui fazer o traço verde-->
+      <div class="underline-green line-small"></div> 
 
       <!-- Card  de como chegar -->
       <div class="card card text-center rounded-lg shadow-sm" style="width: 351px;">
         <div class="card-body">
-          <img src="img/img (1).png" alt="Icone de metrô na cor verde">
+          <img class="icon" src="img/img (1).png" alt="Icone de metrô na cor verde">
           <span style="color:#DB3F31;"><i class="fas fa-square"></i></span>
           <h5 class="card-title">Linha 3-Sé ></h5>
           <p class="card-text"><small class="text-muted">6 min</small></p>
           <p class="card-text"><small class="text-muted">a cada 4 min</small></p>
           <p class="card-text"><small class="text-muted">6 min</small></p>
 
-          <img src="img/img (36).png" alt="Icone de ônibusem tons de verde">
+          <img class="icon" src="img/img (36).png" alt="Icone de ônibusem tons de verde">
           <span style="color:#FFC90A;"><i class="fas fa-square"></i></span>
           <p class="card-text">930P-10</p>
           <span style="color:#DB3F31;"><i class="fas fa-square"></i></span>
@@ -196,26 +196,27 @@
           <span style="color:#6AC70D;"><i class="fas fa-square"></i><span>
               <p class="card-text">N102-11</p>
 
-              <img src="img/img (3).png" alt="Icone de pessoa andando em tons de verde">
+              <img class="icon" src="img/img (3).png" alt="Icone de pessoa andando em tons de verde">
               <p class="card-text">via R. Direita e Viaduto do Chá</p>
               <p class="card-text"><small class="text-muted">9 min | 800m</small></p>
               <p class="card-text">via R. Benjamin Constant</p>
               <p class="card-text"><small class="text-muted">13 min | 1,0km</small></p>
 
-              <a href="#" class="btn btn-primary">CLIQUE PARA SABER MAIS</a>
+              <a href="#" class="btn btn-primary greenClr">CLIQUE PARA SABER MAIS</a>
         </div>
       </div>
       <!-- Fim do card  de como chegar -->
+      </div>
 
 
 
       <div class="container">
         <h3 class="font-weight-bold">Peças e Exposições</h3>
-        <div class="underline-purple"></div> <!-- Não consegui fazer o traço roxo-->
+        <div class="underline-purple line-small"></div> 
 
 
-        <div class="card-deck card text-center" style="width:2188px">
-          <!-- Card 1 -->
+ <div class="d-flex flex-row flex-nowrap overflow-auto line-items">
+             <!-- Card 1 -->
           <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center">
             <img class="card-img-top rounded" src="img/img (23).png" alt="Imagem de capa do card">
             <div class="card-body">
@@ -227,7 +228,7 @@
                 <p class="card-text">20h - 21h10</p>
               </span>
 
-              <a href="" class="btn btn-primary">COMPRAR INGRESSO</a>
+              <a href="" class="btn btn-primary purpleClr">COMPRAR INGRESSO</a>
             </div>
           </div>
 
@@ -247,7 +248,7 @@
               </span>
 
 
-              <a href="" class="btn btn-primary">RETIRAR INGRESSO</a>
+              <a href="" class="btn btn-primary purpleClr">RETIRAR INGRESSO</a>
             </div>
           </div>
 
@@ -269,7 +270,7 @@
                 <p class="card-text">15h-16h</p>
               </span>
 
-              <a href="" class="btn btn-primary">COMPRAR INGRESSO</a>
+              <a href="" class="btn btn-primary purpleClr">COMPRAR INGRESSO</a>
             </div>
           </div>
 
@@ -286,7 +287,7 @@
                 <p class="card-text">19h-20h</p>
               </span>
 
-              <a href="" class="btn btn-primary">COMPRAR INGRESSO</a>
+              <a href="" class="btn btn-primary purpleClr">COMPRAR INGRESSO</a>
             </div>
           </div>
 
@@ -302,7 +303,7 @@
                 <p class="card-text">20h-21h30</p>
               </span>
 
-              <a href="" class="btn btn-primary">COMPRAR INGRESSO</a>
+              <a href="" class="btn btn-primary purpleClr">COMPRAR INGRESSO</a>
             </div>
             <!-- Fim dos cards -->
           </div>
@@ -333,7 +334,111 @@
               </span>
               <p class="d-inline"> 4.8</p>
           
-              <div class="container p-4 m-0 bg-light rounded ratings mt-3"></div>
+              <div class="container my-3">
+               
+     
+                  <div class="row">
+                    <div class="col-md-4  card-rating m-0 p-1">
+                      <div class="card shadow-sm rounded bg-white p-4">
+                        <div class="rating-desc">
+                        <img src="img/larissa.png" class="rounded-circle img-rating">
+                        <div class="text-rating">
+                          <p>Larissa Machado</p>
+                          <p>Indicou para:</p>
+                          <p>Casais, Grupos de Amigos</p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4  card-rating m-0 p-1">
+                      <div class="card shadow-sm rounded bg-white p-4">
+                        <div class="rating-desc">
+                        <img src="img/larissa.png" class="rounded-circle img-rating">
+                        <div class="text-rating">
+                          <p>Larissa Machado</p>
+                          <p>Indicou para:</p>
+                          <p>Casais, Grupos de Amigos</p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4  card-rating m-0 p-1">
+                      <div class="card shadow-sm rounded bg-white p-4">
+                        <div class="rating-desc">
+                        <img src="img/larissa.png" class="rounded-circle img-rating">
+                        <div class="text-rating">
+                          <p class="rating-text font-weight-bold">Larissa Machado</p>
+                          <b class="rating-text">Indicou para:</b><br/>
+                          <i class="rating-text text-size">Casais, Grupos de Amigos</i>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4  card-rating m-0 p-1">
+                      <div class="card shadow-sm rounded bg-white p-4">
+                        <div class="rating-desc">
+                        <img src="img/larissa.png" class="rounded-circle img-rating">
+                        <div class="text-rating">
+                          <p>Larissa Machado</p>
+                          <p>Indicou para:</p>
+                          <p>Casais, Grupos de Amigos</p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4  card-rating m-0 p-1">
+                      <div class="card shadow-sm rounded bg-white p-4">
+                        <div class="rating-desc">
+                        <img src="img/larissa.png" class="rounded-circle img-rating">
+                        <div class="text-rating">
+                          <p>Larissa Machado</p>
+                          <p>Indicou para:</p>
+                          <p>Casais, Grupos de Amigos</p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4  card-rating m-0 p-1">
+                      <div class="card shadow-sm rounded bg-white p-4">
+                        <div class="rating-desc">
+                        <img src="img/larissa.png" class="rounded-circle img-rating">
+                        <div class="text-rating">
+                          <p>Larissa Machado</p>
+                          <p>Indicou para:</p>
+                          <p>Casais, Grupos de Amigos</p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4  card-rating m-0 p-1">
+                      <div class="card shadow-sm rounded bg-white p-4">
+                        <div class="rating-desc">
+                        <img src="img/larissa.png" class="rounded-circle img-rating">
+                        <div class="text-rating">
+                          <p>Larissa Machado</p>
+                          <p>Indicou para:</p>
+                          <p>Casais, Grupos de Amigos</p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                   
+                    <div class="col-md-8  card-rating m-0 p-1">
+                      <div class="card shadow-sm rounded bg-light h-100">
+                        <img src="img/larissa.png" class="rounded-circle w-50 h-50">
+                      </div>
+                    </div>
+                  </div>
+ 
+                  </div>
+
+              </div>
+
+              
               <hr>
             </section>
           
@@ -1047,7 +1152,7 @@
                 <div
                   class="d-flex justify-content-between container pl-4 pr-4 pt-2 pb-2 flex-wrap align-items-center line-bottom">
                   <div class="">
-                    <img src="./img/logo.png" class="img-fluid">
+                    <img src="./img/logo.png" class="img-footer">
                   </div>
                   <!-- Copyright -->
                   <div class="text-center p-3">
@@ -1056,9 +1161,9 @@
                   </div>
           
                   <div class="">
-                    <a href=""><img src="img/facebook.png" class="img-fluid img-small"></a>
-                    <a href=""><img src="img/instagram.png" class="img-fluid img-small"></a>
-                    <a href=""><img src="img/twitter.png" class="img-fluid img-small"></a>
+                    <a href=""><img src="img/facebook.png" class="img-footer img-small"></a>
+                    <a href=""><img src="img/instagram.png" class="img-footer img-small"></a>
+                    <a href=""><img src="img/twitter.png" class="img-footer img-small"></a>
                   </div>
                 </div>
                 <!-- Copyright -->

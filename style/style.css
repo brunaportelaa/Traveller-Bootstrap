@@ -65,9 +65,46 @@ body{
     max-width: 40px;
 }
 
+
+.mapDiv{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.img-rating{
+    width: 100px;
+    height: 100px ;
+    display: inline;
+}
+
+
+
+.text-rating{
+    width:60%;
+    text-align: end;
+    display: inline;
+}
+
+.rating-desc{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card-locais{
+    flex-shrink: 0;
+    max-width: 300px;
+    margin-right: 3rem;
+}
 .icon {
     width:35px;
 }
+
+.icon-lg {
+    width:65px;
+}
+
 
 
 .locais-title{
@@ -87,9 +124,15 @@ body{
     background-color:#20A1F1;
 }
 
+
 .purpleClr{
     background-color: #A100FF;
-    color:white;
+
+}
+
+.greenClr {
+    background-color: #00FF9D;
+    color: #003C25;
     font-weight: 800;
 }
 
@@ -129,6 +172,10 @@ body{
     height:auto;
 }
 
+.card-rating{
+    min-height:300px
+}
+
 
 .scrolling-wrapper{
 	overflow-x: auto;
@@ -136,15 +183,9 @@ body{
 
 
 
-.places{
-    background-color:#f8f8f8;
-    
-}
-
-
 
 .ratings{
-    height:70vh
+    min-height:70vh
 }
 @media only screen and (max-width: 980px) {
     .line-bottom {
