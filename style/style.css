@@ -76,8 +76,27 @@ body{
 }
 
 
+.img-rating{
+    width: 100px;
+    height: 100px ;
+    display: inline;
+}
 
-.card{
+
+
+.text-rating{
+    width:60%;
+    text-align: end;
+    display: inline;
+}
+
+.rating-desc{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card-locais{
     flex-shrink: 0;
     max-width: 300px;
     margin-right: 3rem;
@@ -150,6 +169,10 @@ body{
     height:auto;
 }
 
+.card-rating{
+    min-height:300px
+}
+
 
 .scrolling-wrapper{
 	overflow-x: auto;
@@ -157,15 +180,9 @@ body{
 
 
 
-.places{
-    background-color:#f8f8f8;
-    
-}
-
-
 
 .ratings{
-    height:70vh
+    min-height:70vh
 }
 @media only screen and (max-width: 980px) {
     .line-bottom {
