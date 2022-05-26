@@ -78,12 +78,23 @@ body{
     display: inline;
 }
 
+.indicated-for{
+    font-size:0.8rem;
+}
 
+.name-rating{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
 
 .text-rating{
     width:60%;
-    text-align: end;
     display: inline;
+    margin-left: 1rem;
+}
+
+.indicated-text{
+    font-size:0.9rem
 }
 
 .rating-desc{
@@ -164,6 +175,9 @@ body{
 }
 
 
+.Card-rate{
+    height: 100%;
+}
 
 .card-title{
     text-align: center;
@@ -172,23 +186,45 @@ body{
     height:auto;
 }
 
-.card-rating{
-    min-height:300px
+.flex-rate{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.textarea{
+    min-width:200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-left: 1rem;
+    padding:1rem;
+}
+
+textarea{
+    width: 100%;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+.button-area{
+    min-width:200px;
+    flex-grow: 1;
+    padding:1rem;
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+
+.yellowBtn{
+    background-color: #FFD600;
+    color:black;
+    width: 100%;
+    top:100%
+}
 
 .scrolling-wrapper{
 	overflow-x: auto;
 }
 
-.text-small{
-    font-size: 0.8rem;
-}
-
-
-.ratings{
-    min-height:70vh
-}
 @media only screen and (max-width: 980px) {
     .line-bottom {
       justify-content: center;
