@@ -98,11 +98,11 @@ body{
     margin-right: 3rem;
 }
 .icon {
-    width:35px;
+    width:15px;
 }
 
 .icon-lg {
-    width:65px;
+    width:50px;
 }
 
 
@@ -181,7 +181,9 @@ body{
 	overflow-x: auto;
 }
 
-
+.text-small{
+    font-size: 0.8rem;
+}
 
 
 .ratings{
