@@ -1,6 +1,4 @@
-.footer{
-    background-color:#f8f8f8;
-}
+
 
 body{
     font-family: 'Space Grotesk', sans-serif;
@@ -15,10 +13,22 @@ body{
     justify-content: space-between;
 }
 
-
+.places{
+    background-color: #f8f8f8;
+}
 
 .second-nav {
     font-weight: 700;
+}
+
+
+.places button{
+    color:white;
+    cursor: pointer;
+}
+
+footer{
+    background-color:#EEEEEE;
 }
 
 .navbar-collapse{
@@ -60,7 +70,8 @@ body{
 
 
 .line-items{
-    padding: 1rem 3rem 3rem 3rem;
+    padding: 0.5rem 5rem 2rem 5rem;
+    justify-content: space-around;
 }
 
 .card-comochegar{
@@ -267,6 +278,8 @@ textarea{
 	overflow-x: auto;
 }
 
+
+
 @media only screen and (max-width: 980px) {
     .line-bottom {
       justify-content: center;
@@ -280,6 +293,12 @@ textarea{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+}
+
+
+.line-items{
+    padding: 0.5rem 5rem 2rem 1rem;
+    justify-content:inherit;
 }
 
     

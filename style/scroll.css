@@ -2,7 +2,7 @@
   /* Firefox */
   * {
     scrollbar-width: thin;
-    scrollbar-color: #cfcfcf #ffffff;
+    scrollbar-color: #cfcfcf #f8f8f8;
   }
 
   /* Chrome, Edge, and Safari */
@@ -12,7 +12,7 @@
   }
 
   *::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: #f8f8f8;
   }
 
   *::-webkit-scrollbar-thumb {
