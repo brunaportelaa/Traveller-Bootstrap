@@ -61,6 +61,7 @@ body{
 .locais-title{
     width:fit-content
 }
+
 .img-small{
     max-width: 40px;
 }
@@ -101,8 +102,18 @@ body{
     width:15px;
 }
 
+.icon-md {
+    max-width: 30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+}
+
 .icon-lg {
-    width:50px;
+    max-width:55px;
+    max-height:55px;
+    width: auto;
+    height: auto;
 }
 
 
@@ -137,8 +148,15 @@ body{
 }
 
 .yellowClr{
-   
     color:#FFD600;
+}
+
+.orangeClr{
+    background-color:#FF5900;
+}
+
+.btn {
+    border: none;
 }
 
 .col{display: inline-block;}
