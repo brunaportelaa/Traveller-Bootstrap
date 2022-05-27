@@ -15,10 +15,11 @@ body{
     justify-content: space-between;
 }
 
+
+
 .second-nav {
     font-weight: 700;
 }
-
 
 .navbar-collapse{
     flex-direction: row-reverse;
@@ -57,6 +58,17 @@ body{
 }
 
 
+.line-items{
+    padding: 1rem 3rem 3rem 3rem;
+}
+
+.card-comochegar{
+    width: 100%;
+    margin-right: 0;
+}
+
+
+
 
 .locais-title{
     width:fit-content
@@ -66,7 +78,16 @@ body{
     max-width: 40px;
 }
 
+.img-footer{
+    max-width: 50px;
+}
 
+.card-ticket{
+    flex-shrink: 0;
+    flex-grow:0 ;
+    margin-right:2rem;
+    width:300px
+}
 .mapDiv{
     width: 90%;
     margin: 0 auto;
@@ -213,7 +234,7 @@ body{
 .textarea{
     min-width:200px;
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
     margin-left: 1rem;
     padding:1rem;
 }
@@ -225,10 +246,10 @@ textarea{
 }
 
 .button-area{
-    min-width:200px;
+
     flex-grow: 1;
     padding:1rem;
-    flex-shrink: 0;
+    flex-shrink: 1;
     margin-left: 1rem;
 }
 
@@ -254,6 +275,14 @@ textarea{
         display: flex;
         justify-content: space-between;
     }
+
+    
+.rowSegundaNav{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
     
   }
 

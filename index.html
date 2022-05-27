@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/scroll.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
@@ -59,26 +61,26 @@
       </nav>
   </div>
   </header>
-  <div class="container-fluid ">
-    <div class="row second-nav my-5 ">
+  <div class="container ">
+    <div class="row second-nav my-5 rowSegundaNav">
       <!-- Div vazia para espaçamento -->
       <div class="col-1"></div>
       <!-- Fim da div vazia para espaçamento -->
       <div class="col-2">
-        <span class="underline-green">Como chegar</span>
+        <span class="underline-green flexItemNav">Como chegar</span>
         <div></div>
       </div>
       <div class="col-2">
-        <span class="underline-blue">Hospedagem</span>
+        <span class="underline-blue flexItemNav">Hospedagem</span>
       </div>
       <div class="col-2">
-        <span class="underline-pink">Gastronomia</span>
+        <span class="underline-pink flexItemNav">Gastronomia</span>
       </div>
       <div class="col-2">
-        <span class="underline-orange">História e Cultura</span>
+        <span class="underline-orange flexItemNav">História e Cultura</span>
       </div>
       <div class="col-2">
-        <span class="underline-purple">Entretenimento</span>
+        <span class="underline-purple flexItemNav">Entretenimento</span>
       </div>
       <!-- Div vazia para espaçamento -->
       <div class="col-1"></div>
@@ -221,7 +223,7 @@
           <div class="underline-green line-small mb-4"></div>
 
           <!-- Card  de como chegar -->
-          <div class="card text-center rounded shadow-sm" style="width: 351px;">
+          <div class="card card text-center rounded-lg shadow-sm card-come" style="width: 351px;">
             <span class="card-body">
               <img class="icon-lg mb-3" src="img/img (1).png" alt="Icone de metrô na cor verde">
               <div class="d-flex justify-content-center">
@@ -267,10 +269,10 @@
     <h3 class="font-weight-bold">Peças e Exposições</h3>
     <div class="underline-purple line-small mb-4"></div>
 
-
+</div>
     <div class="d-flex flex-row flex-nowrap overflow-auto line-items">
       <!-- Card 1 -->
-      <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center">
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
         <img class="card-img-top rounded" src="img/img (23).png" alt="Imagem de capa do card">
         <div class="card-body">
           <h5 class="card-title">Orquestra Sinfônica Municipal apresenta “Grandes Estreias”</h5>
@@ -286,7 +288,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded text-center card-ticket">
         <img class="card-img-top rounded" src="img/img (24).png" alt="Imagem de capa do card">
         <div class="card-body">
           <h5 class="card-title">Visita Mediada a Exposição Contramemória</h5>
@@ -306,7 +308,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="card shadow-lg p-3 mb-5 bg-white rounded card text-center">
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded card text-center card-ticket">
         <img class="card-img-top rounded" src="img/img (6).png" alt="Imagem de capa do card">
         <div class="card-body">
           <h5 class="card-title">Visita mediada ao Theatro Municipal de São Paulo</h5>
@@ -329,7 +331,7 @@
 
 
       <!-- Card 4 -->
-      <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center">
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
         <img class="card-img-top rounded" src="img/img (5).png" alt="Imagem de capa do card">
         <div class="card-body">
           <h5 class="card-title">Quarteto da Cidade apresenta “Identidade Brasileira III”</h5>
@@ -345,7 +347,7 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center">
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
         <img class="card-img-top rounded" src="img/img (25).png" alt="Imagem de capa do card">
         <div class="card-body">
           <h5 class="card-title">Balé da Cidade apresenta “Adastra” e “Transe”</h5>
@@ -360,7 +362,6 @@
         </div>
         <!-- Fim dos cards -->
       </div>
-    </div>
 
   </div>
   </div>
@@ -1403,7 +1404,7 @@
 
     <div class="d-flex justify-content-between container pl-4 pr-4 pt-2 pb-2 flex-wrap align-items-center line-bottom">
       <div class="">
-        <img src="./img/logo.png" class="img-footer">
+        <img src="./img/logo.png" class="img-fluid navbar-logo">
       </div>
       <!-- Copyright -->
       <div class="text-center p-3">
@@ -1421,7 +1422,7 @@
 
   </footer>
   </div>
-
+</div>
 </body>
 
 </html>
