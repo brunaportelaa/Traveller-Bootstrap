@@ -18,9 +18,9 @@ var cor=""
   }else if(element > 30){ cor = "#b85416"}
   else if(element > 25) {cor = "#e0b909"}
   else if (element > 20) {cor = "#86e009"}
-  else if (element > 15) {cor = "#09e0a3"}
-  else if(element > 5) {cor = "#09d9e0"}
-  else if(element > -5) {cor = "#a3f5f7"}
+  else if (element > 15) {cor = "#09d5e0"}
+  else if(element > 5) {cor = "#6eccf5"}
+  else if(element > -5) {cor = "#9ddefa"}
   else if(element > -15) {cor = "#dcf7f7"}
   else {cor = "#cecece"}
 
