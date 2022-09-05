@@ -13,7 +13,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <title>Traveller - Theatro Municipal</title>
+ 
+    <link href="style/styleTemp.css" rel="stylesheet">
+
+    <title>Traveller - Theatro Municipal</title>
   <script src="https://kit.fontawesome.com/5170ecd3f8.js" crossorigin="anonymous"></script>
 </head>
 
@@ -261,6 +264,16 @@
   </div>
 </div>
 
+<!-- INICIO API TEMPO-->
+<div class="container">
+<h3 class="font-weight-bold">Temperatura Média dos Próximos Dias</h3>
+<div class="underline-purple line-small mb-4"></div>
+</div>
+<section id="listaTemp">
+
+</section>
+
+<!--FIM API TEMPO-->
 
 
 <div class="container">
@@ -385,6 +398,7 @@
                 data-placement="top" title="Excellent"></i>
             </span>
             <p class="d-inline"> 4.8</p>
+            </section>
         
             <div class="container my-3">
              
@@ -460,6 +474,7 @@
               <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
                 data-placement="top" title="Excellent"></i>
             </span>
+       
                         <b class="rating-text indicated-for">Indicou para:</b><br/>
                         <i class="indicated-text rating-text text-size">Casais, Grupos de Amigos</i>
                       </div>
@@ -1050,9 +1065,9 @@
 </div>
 </div>
 </body>
+<script src="script/apiTemperatura.js"></script>
 
 </html>
 
   
   
-</body>
